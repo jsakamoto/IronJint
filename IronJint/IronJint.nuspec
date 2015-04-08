@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$-alpha1</version>
+    <title>$title$</title>
+    <authors>J.Sakamoto</authors>
+    <owners>J.Sakamoto</owners>
+    <!--
+    <iconUrl/>
+    -->
+    <projectUrl>https://github.com/jsakamoto/ironjint</projectUrl>
+    <licenseUrl>https://github.com/jsakamoto/ironjint/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      A thin wrapper of Jint (popular JavaScript interpreter on .NET) for adapt to Microsoft.Scripting.Runtime.LanguageContext interface.
+    </description>
+    <releaseNotes>
+      <![CDATA[
+      v.1.0.0
+      - 1st release
+    ]]>
+    </releaseNotes>
+  </metadata>
+</package>
