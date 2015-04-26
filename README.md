@@ -11,7 +11,7 @@ Total count of all source codes lines is only **91 lines** :)
 1) Install IronJint via NuGet package repository.
 
 ```
-PM> Install-Package IronJint -Pre
+PM> Install-Package IronJint
 ```
 
 2) Configure application configuration file(.config)
@@ -80,9 +80,3 @@ All you need is installing IronJint NuGet package and insert one line into .conf
 ```xml
 <language extensions=".js" displayName="IronJint" type="IronJint.Runtime.JavaScriptContext, IronJint" names="IronJint;JavaScript;js" />
 ```
-
-## Why IronJint NuGet package is pre-release version?
-
-IronJint depend on [Microsoft Dynamic Language Runtime](https://www.nuget.org/packages/DynamicLanguageRuntime), but DynamicLanguageRuntime NuGet package still pre-release version.
-
-> IronRuby and IronPython are bundle Microsoft Dynamic Language Runtime(MS DLR) to their package. But, I think, it is too redundancy and cause many confusions. I think they should not bundle MS DLR, shoud depends on external MS DLR NuGet package.
